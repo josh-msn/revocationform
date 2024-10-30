@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #333333ad;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin: 50px 0px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 40px 0px;
+}
+
+#agreementForm {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#begrüßung {
+  margin-top: 0px;
+}
+
+#agreementForm,
+label {
+  max-width: calc(100% - 20%);
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+label input[type="checkbox"] {
+  vertical-align: top;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#submitBtn {
+  background-color: rgb(129, 129, 129);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px;
+  border: 0px;
+  box-shadow: #3333339c 0px 5px 10px;
+  display: block;
+  margin: 30px auto 30px auto;
+}
+
+#submitBtn:enabled {
+  background-color: rgb(54, 136, 7);
+}
+
+#submitBtn:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+/* Entfernt das Margin von der Checkbox */
+.checkbox {
+  margin: 0;
+}
+
+body > div > div:nth-child(4) > p {
+  font-weight: bold;
+}
+
+.page-wrapper {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(243, 243, 243);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 5px 20px #33333354;
+}
+
+.imp-info {
+  background-color: #ff410848;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.imp-info p {
+  margin: 10px;
+}
